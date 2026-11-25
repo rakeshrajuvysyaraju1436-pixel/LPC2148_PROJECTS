@@ -1,28 +1,47 @@
+# LPC2148 Embedded Systems Projects
 
-# LPC2148 LED Toggle
+## About This Repository
+This repository contains my hands-on experiments and projects using the **LPC2148 (ARM7) microcontroller** as part of my embedded systems learning.
 
-## Experiment 01: LED ON/OFF
+The programs are developed and tested using **Keil µVision4**. This repository documents my practical learning, source codes, project files, and hardware interfacing experiments.
 
-### Objective
-To turn an LED ON and OFF using the LPC2148 ARM7 microcontroller.
+## Microcontroller
+- LPC2148 (ARM7)
+- 32-bit ARM7TDMI-S processor
 
-### Hardware Used
-- LPC2148 Microcontroller
-- LED
-- Connecting wires
-
-### Software Used
+## Software and Tools
 - Keil µVision4
+- Embedded C / C++
+- LPC2148 development board
 
-### Description
-The LED is connected to P0.8 of the LPC2148.
+## Experiments
 
-- IOCLR0 is used to turn ON the active-low LED.
-- IOSET0 is used to turn OFF the LED.
-- A delay of 1 second is used between operations.
+| S.No | Experiment | Description |
+|---|---|---|
+| 01 | LED Toggle | Turning an LED ON and OFF using LPC2148 |
+| 02 | LED Control using Bluetooth | Controlling LED through a smartphone |
+| 03 | 8-Bit Binary LED | Displaying binary patterns using 8 LEDs |
+| 04 | LCD Interfacing | Displaying characters on a 16x2 LCD |
+| 05 | Keypad Interfacing with LCD | Displaying keypad inputs on LCD |
+| 06 | Keypad Interfacing with LED | Controlling LEDs using keypad inputs |
 
-### Programming Language
-C++ (Keil source file)
+*More experiments will be added as I complete and test them.*
 
-### Result
-The LED successfully toggles ON and OFF continuously.
+## Repository Contents
+Each experiment will include its source code and relevant Keil project files. Pin connections and implementation details will be documented wherever applicable.
+
+## Learning Outcomes
+- Understanding ARM7 microcontroller programming.
+- Practicing Embedded C programming.
+- Interfacing LEDs, LCDs and keypads.
+- Understanding GPIO operations.
+- Developing practical embedded systems skills.
+
+## Author
+**Rakesh Raju**
+
+Electronics and Communication Engineering (ECE) Student
+
+---
+
+This repository is continuously updated as I learn and complete new LPC2148 experiments.
